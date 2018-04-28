@@ -1,0 +1,15 @@
+package ua.artcode.solutions.map_1;
+
+import java.util.Map;
+
+/**
+ * author Vladyslav Dziubko
+ */
+public class MapAB {
+    public Map<String, String> mapAB(Map<String, String> map) {
+        if (map.containsKey("a") && map.containsKey("b")) {
+            map.put("ab", map.get("a") + map.get("b"));
+        }
+        return map;
+    }
+}
