@@ -1,4 +1,4 @@
-package ua.artcode.solutions.functionsl_2;
+package ua.artcode.solutions.functional_2;
 
 import java.util.List;
 import java.util.stream.Collectors;
